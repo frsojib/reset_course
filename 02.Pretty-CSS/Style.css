@@ -1,0 +1,13 @@
+/* color section */
+
+p{
+    color: blueviolet;
+    height: 50%;
+    font-weight: 50%; 
+}
+#background-color{
+    background-color: rgb(3, 64, 66);
+    color:rgba(125,12,0,1); 
+    height: 50%;
+    font-weight: 50%; 
+}
