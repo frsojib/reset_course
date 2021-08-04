@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo-frame{
+            width: 300px;
+            height: 200px;
+            border: 2px solid gold;
+            border-radius: 10px;
+            position: relative;
+        }
+        .photo img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .photo-detail{
+            display: none;
+            position: absolute;
+            width: 300px;
+            top: 0;
+
+        }
+        .photo-detail h3{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        .photo-frame:hover .photo-detail{
+            display: block;
+            background-color: rgba(233, 195, 99, 0.623);
+            font-weight: 700;
+        }
+        .photo-album{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Awesome photo album using tiger mama</h1>
+    <div class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger Bodda Candid</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum magnam quod eos corporis quo quas deserunt quos totam sint nesciunt. Amet aspernatur repellendus ex illum quis corporis accusamus iure reprehenderit.</p>
+            </div>
+        </div>
+    </div>
+    <div class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger Bodda Candid</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum magnam quod eos corporis quo quas deserunt quos totam sint nesciunt. Amet aspernatur repellendus ex illum quis corporis accusamus iure reprehenderit.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
